@@ -1,0 +1,42 @@
+.file-explorer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.item-details ul {
+	list-style: none;
+	padding: 0;
+}
+
+.item-details li {
+	margin-bottom: 10px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+.item-details li:hover {
+	background-color: #dddddd;
+}
+
+button {
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 8px 16px;
+	background-color: #7a7a7a;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #b8b8b8;
+}

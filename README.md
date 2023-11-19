@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# File Explorer App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This File Explorer application allows users to browse through files and folders, add new files and folders, and delete existing ones. It provides a simple interface to navigate a hierarchical file structure.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To run this application locally, follow these steps:
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Node.js and npm installed on your machine.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Server Installation
 
-### `npm test`
+1. Clone the repository to your local machine:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+      ```bash
+      git clone https://github.com/87Bohdan00/file-explorer-server.git
+      ```
 
-### `npm run build`
+2. Navigate to the server project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+      ```bash
+      cd test-server
+      ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+      ```bash
+      npm install
+      ```
 
-### `npm run eject`
+4. Starting the Server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+      ```bash
+      node server.js
+      ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+      This will launch the server on http://localhost:3001
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### App Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Open a new code editor window.
 
-## Learn More
+2. Clone the repository to your local machine:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+      ```bash
+      git clone https://github.com/87Bohdan00/file-explorer-app.git
+      ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Navigate to the project directory:
 
-### Code Splitting
+      ```bash
+      cd test-task
+      ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Install dependencies:
 
-### Analyzing the Bundle Size
+      ```bash
+      npm install
+      ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. Starting the Application:
 
-### Making a Progressive Web App
+      ```bash
+      npm start
+      ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This will launch the application on http://localhost:3000 in your default web browser.
 
-### Advanced Configuration
+### Features:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Browse through files and folders.
 
-### Deployment
+- Add new files and folders.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Delete existing files and folders.
 
-### `npm run build` fails to minify
+- Simple navigation with a back button.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The application's functionality includes creating, navigating, and deleting files and folders at multiple levels of nesting.
+
+### Additional Notes
+
+- The application's functionality includes creating, navigating, and deleting files and folders at multiple levels of nesting.
+
+- The server data fetch is emulated in the apiService.js file.
